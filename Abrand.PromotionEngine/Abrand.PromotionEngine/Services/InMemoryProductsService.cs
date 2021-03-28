@@ -1,4 +1,5 @@
 ﻿using Abrand.PromotionEngine.Models;
+using Abrand.PromotionEngine.Services.Contracts;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -15,9 +16,10 @@ namespace Abrand.PromotionEngine.Services
             Add(new Product("D", "ProductD", 15.00M));
         }
 
+
         public bool AddProduct(string sku, string name, decimal unitPrice)
         {
-            if(this.Any(p => p.Sku == sku))
+            if (this.Any(p => p.Sku == sku))
             {
                 return false;
             }

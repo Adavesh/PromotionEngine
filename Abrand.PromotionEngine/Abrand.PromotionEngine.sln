@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abrand.PromotionEngine", "Abrand.PromotionEngine\Abrand.PromotionEngine.csproj", "{BA8E0EF3-F851-4879-AEB8-A723F3D75FED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abrand.PromotionEngine", "Abrand.PromotionEngine\Abrand.PromotionEngine.csproj", "{BA8E0EF3-F851-4879-AEB8-A723F3D75FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abrand.PromotionEngine.Tests", "Abrand.PromotionEngine.Tests\Abrand.PromotionEngine.Tests.csproj", "{DF5D8826-D4F8-4D68-B78E-EE1D7EBCB133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BA8E0EF3-F851-4879-AEB8-A723F3D75FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA8E0EF3-F851-4879-AEB8-A723F3D75FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA8E0EF3-F851-4879-AEB8-A723F3D75FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5D8826-D4F8-4D68-B78E-EE1D7EBCB133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5D8826-D4F8-4D68-B78E-EE1D7EBCB133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5D8826-D4F8-4D68-B78E-EE1D7EBCB133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5D8826-D4F8-4D68-B78E-EE1D7EBCB133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

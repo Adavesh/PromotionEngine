@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace Abrand.PromotionEngine.Models
 {
-    public class Cart
+    public class Cart : Collection<CartItem>
     {
-        public Dictionary<string, int> CartItems { get; set; }
-
         public decimal TotalValue
         {
             get
             {
-                CartItems
+                return this.Sum(item => item.Value);
             }
         }
     }
